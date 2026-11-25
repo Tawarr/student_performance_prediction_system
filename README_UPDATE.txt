@@ -34,8 +34,3 @@ IMPORTANT NOTES
   the app does not silently alter that value.
 - Predictions from different datasets are not automatically directly comparable
   unless their target scales, populations, and evaluation methods are aligned.
-
-REBUILD THE EXE
-After confirming the updated app works in Streamlit, run your existing
-build_exe.bat again. Its --add-data "data;data" option should bundle both CSVs.
-Keep the entire generated dist\StudentPerformancePrediction folder together.
